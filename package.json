@@ -1,0 +1,32 @@
+{
+  "name": "vprok-test-assignment",
+  "version": "1.0.0",
+  "description": "Тестовое задание: парсер сайта vprok.ru",
+  "main": "run_all.js",
+  "scripts": {
+    "start": "node run_all.js",
+    "part1": "node vprok_parser.js",
+    "part2": "node api_parser.js",
+    "test": "node run_all.js"
+  },
+  "keywords": [
+    "parser",
+    "vprok",
+    "puppeteer",
+    "api",
+    "scraping"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "puppeteer": "^21.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ваш-логин/vprok-parser.git"
+  }
+}
